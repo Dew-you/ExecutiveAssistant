@@ -2,6 +2,8 @@
 
 The three brands below are **always connected**. They are run as one system — content, commerce, and community feed each other, and each one is built to generate income for the group. Wherever one brand acts, the other two are considered.
 
+> **Canonical direction (always true):** Everything forwards to **`allnaturalextract.com`** (the Shopify store). **WordPress is disconnected and no longer used.** **`naturalextract.net` is email-only** (e.g. dew@ / support@naturalextract.net) and forwards to allnaturalextract.com — nothing else comes from the `.net` domain. "The site"/"the store" = allnaturalextract.com (Shopify).
+
 ## The Mission
 
 **Own the menopause decade-and-a-half.** Our niche is the **20 years between ages 40 and 60** — for **both men and women**.
@@ -17,11 +19,13 @@ That is the mission: dominate this niche across the full 40–60 span.
 
 ## The Three Brands
 
-| Brand | Site(s) | Persona | Role in the Trinity |
+All three brands consolidate to the single web home **allnaturalextract.com (Shopify)**. The old WordPress sites are disconnected; the brands live on as personas + YouTube/social + Shopify.
+
+| Brand | Web home | Persona | Role in the Trinity |
 |---|---|---|---|
-| **Natural Extracts** | allnaturalextract.com · naturalextract.net | — | Commerce / **Medication** (natural products & remedies) |
-| **Her Natural Edge** | hernaturaledge.com | Valerie | **Education** (teaching the 40–60 transition) |
-| **Stand In Her Corner** | standinhercorner.com | Jordan | Community / **Art** (story, content, endurance) |
+| **Natural Extracts** | allnaturalextract.com (Shopify) | — | Commerce / **Medication** (natural products & remedies) |
+| **Her Natural Edge** | allnaturalextract.com (Shopify) · hernaturaledge.com WordPress *disconnected* | Valerie | **Education** (teaching the 40–60 transition) |
+| **Stand In Her Corner** | allnaturalextract.com (Shopify) · standinhercorner.com WordPress *disconnected* | Jordan | Community / **Art** (story, content, endurance) |
 
 > Pillar-to-brand mapping above is the working alignment — confirm or adjust and this file gets updated.
 
@@ -53,15 +57,18 @@ Last checked: **2026-09-01** (from a Claude Code remote/cloud session, via claud
 
 ⚠️ No YouTube channel is authorized for **Natural Extracts** or **Her Natural Edge (Valerie)** — if they exist, link them to this VidIQ account.
 
-### Websites (direct reachability)
+### Websites
 
-Direct web access to all three brand domains is **blocked by the remote session's network egress proxy** — I cannot browse them as live URLs from here. Site *management* runs through connectors instead:
+Everything forwards to **allnaturalextract.com (Shopify)** — that is the only live web property to manage.
 
-| Site | Management path | Status |
+| Domain | Role | Status |
 |---|---|---|
-| allnaturalextract.com | Shopify | ✅ Connected |
-| hernaturaledge.com | WordPress connector | ⚠️ Off in chat |
-| standinhercorner.com | WordPress connector | ⚠️ Off in chat |
+| allnaturalextract.com | Shopify store — the web home for all brands | ✅ Connected (via Shopify) |
+| naturalextract.net | **Email only** (dew@/support@); forwards to allnaturalextract.com | Email-only, no site |
+| hernaturaledge.com | Old WordPress site | ❌ Disconnected / not used |
+| standinhercorner.com | Old WordPress site | ❌ Disconnected / not used |
+
+(Direct web browsing of these domains is blocked by the remote session's egress proxy, but management of the live store runs through the Shopify connector.)
 
 ### ⚠️ Needs attention
 
@@ -69,10 +76,10 @@ Direct web access to all three brand domains is **blocked by the remote session'
 |---|---|---|
 | Microsoft 365 | Signed in as **tech@earthweb.llc**, not a naturalextract.net account | Decide if this is the intended identity |
 | Stripe | Connector present but not authorized this session | Reconnect in claude.ai → Settings → Connectors |
-| NaturalExtract-WordPress | Toggled **off** in chat | Enable in this chat's connector settings |
-| WordPress.com | Toggled **off** in chat (likely hernaturaledge.com / standinhercorner.com) | Enable in this chat's connector settings |
+
+> WordPress connectors are intentionally **disconnected** — not a gap to fix.
 
 ## Notes / Limitations
 
 - The **Chrome extension ("Claude in Chrome") is not available in a remote/cloud session** — it only works in a local Claude Code session connected to your own browser. All connections above run through claude.ai connectors, which is the correct path for remote work.
-- To bring a currently-off service online, enable it in the chat's connector settings (WordPress) or re-authorize it in claude.ai settings (Stripe), then re-run this check.
+- To bring a currently-off service online, re-authorize it in claude.ai settings (e.g. Stripe), then re-run this check. WordPress is deliberately disconnected and should stay off.

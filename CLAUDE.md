@@ -23,4 +23,9 @@ This file provides guidance to Claude Code when working in this directory.
 
 ## Important Notes
 
-<!-- Any constraints, warnings, or things Claude should always keep in mind -->
+### Canonical facts (always true — do not re-ask)
+
+- **WordPress is disconnected and no longer used.** Do not reference, connect to, or route work through any WordPress site (including hernaturaledge.com and standinhercorner.com as WordPress properties).
+- **The single web home for the business is `allnaturalextract.com`, which is the Shopify store.** Reference everything toward Shopify / allnaturalextract.com.
+- **`naturalextract.net` forwards to `allnaturalextract.com`.** The `.net` domain is used **only for email** (e.g. dew@naturalextract.net, support@naturalextract.net). Nothing else comes from the `.net` domain — no site, no store, no content.
+- When a task mentions "the website," "the site," or "the store," it means **allnaturalextract.com (Shopify)** unless the user explicitly says otherwise.
