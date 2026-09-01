@@ -75,7 +75,7 @@ Everything forwards to **allnaturalextract.com (Shopify)** — that is the only 
 | Service | Issue | Fix |
 |---|---|---|
 | Microsoft 365 | Signed in as **tech@earthweb.llc**, not a naturalextract.net account | Decide if this is the intended identity |
-| Stripe | Connector present but not authorized this session | Reconnect in claude.ai → Settings → Connectors |
+| Stripe | Connector present but **not authorized**; OAuth **cannot be completed from a remote/cloud session** | You reconnect it in claude.ai → Settings → Connectors, then I re-verify |
 
 > WordPress connectors are intentionally **disconnected** — not a gap to fix.
 
