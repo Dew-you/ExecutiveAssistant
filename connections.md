@@ -44,6 +44,25 @@ Last checked: **2026-09-01** (from a Claude Code remote/cloud session, via claud
 | Gamma | connected | All brands (decks/docs) |
 | Slack | auth works (no channels matched a test search — verify workspace) | All brands (ops) |
 
+### YouTube channels (VidIQ, authorized as dew@naturalextract.net)
+
+| Channel | Subs | Views | Videos | Trinity brand? |
+|---|---|---|---|---|
+| **Stand In Her Corner** (Jordan) | 16 | 11,246 | 211 | ✅ Yes |
+| **KitchenLore** (food history) | 106 | 22,626 | 169 | ❌ Separate brand |
+
+⚠️ No YouTube channel is authorized for **Natural Extracts** or **Her Natural Edge (Valerie)** — if they exist, link them to this VidIQ account.
+
+### Websites (direct reachability)
+
+Direct web access to all three brand domains is **blocked by the remote session's network egress proxy** — I cannot browse them as live URLs from here. Site *management* runs through connectors instead:
+
+| Site | Management path | Status |
+|---|---|---|
+| allnaturalextract.com | Shopify | ✅ Connected |
+| hernaturaledge.com | WordPress connector | ⚠️ Off in chat |
+| standinhercorner.com | WordPress connector | ⚠️ Off in chat |
+
 ### ⚠️ Needs attention
 
 | Service | Issue | Fix |
