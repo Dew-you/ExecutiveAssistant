@@ -29,3 +29,5 @@ This file provides guidance to Claude Code when working in this directory.
 - **The single web home for the business is `allnaturalextract.com`, which is the Shopify store.** Reference everything toward Shopify / allnaturalextract.com.
 - **`naturalextract.net` forwards to `allnaturalextract.com`.** The `.net` domain is used **only for email** (e.g. dew@naturalextract.net, support@naturalextract.net). Nothing else comes from the `.net` domain — no site, no store, no content.
 - When a task mentions "the website," "the site," or "the store," it means **allnaturalextract.com (Shopify)** unless the user explicitly says otherwise.
+- **Company email is Gmail on `naturalextract.net`** (dew@ / support@naturalextract.net) — this remains the email of record.
+- **Microsoft 365 (tech@earthweb.llc) is for other business functions** — SharePoint and related — coming online later. It is intentionally a separate identity from the company email, not a misconfiguration.
