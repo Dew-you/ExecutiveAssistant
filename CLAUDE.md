@@ -27,6 +27,7 @@ This file provides guidance to Claude Code when working in this directory.
 
 - **WordPress is disconnected and no longer used.** Do not reference, connect to, or route work through any WordPress site (including hernaturaledge.com and standinhercorner.com as WordPress properties).
 - **The single web home for the business is `allnaturalextract.com`, which is the Shopify store.** Reference everything toward Shopify / allnaturalextract.com.
+- **`hernaturaledge.com` and `standinhercorner.com` now host the Bolt.new companion apps (Valerie and Jordan).** They are not WordPress. Shop/product/blog links always go to allnaturalextract.com; "meet Valerie" / "meet Jordan" links go to those app domains. (Confirmed by Don, 2026-09-05.)
 - **`naturalextract.net` forwards to `allnaturalextract.com`.** The `.net` domain is used **only for email** (e.g. dew@naturalextract.net, support@naturalextract.net). Nothing else comes from the `.net` domain — no site, no store, no content.
 - When a task mentions "the website," "the site," or "the store," it means **allnaturalextract.com (Shopify)** unless the user explicitly says otherwise.
 - **Company email is Gmail on `naturalextract.net`** (dew@ / support@naturalextract.net) — this remains the email of record.

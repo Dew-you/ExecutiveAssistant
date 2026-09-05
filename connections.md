@@ -65,8 +65,8 @@ Everything forwards to **allnaturalextract.com (Shopify)** — that is the only 
 |---|---|---|
 | allnaturalextract.com | Shopify store — the web home for all brands | ✅ Connected (via Shopify) |
 | naturalextract.net | **Email only** (dew@/support@); forwards to allnaturalextract.com | Email-only, no site |
-| hernaturaledge.com | Old WordPress site | ❌ Disconnected / not used |
-| standinhercorner.com | Old WordPress site | ❌ Disconnected / not used |
+| hernaturaledge.com | Valerie companion app (Bolt.new) — "meet Valerie" links only; WordPress gone | ✅ App domain (managed via Bolt.new, not a connector) |
+| standinhercorner.com | Jordan companion app (Bolt.new) — "meet Jordan" links only; WordPress gone | ✅ App domain (managed via Bolt.new, not a connector) |
 
 (Direct web browsing of these domains is blocked by the remote session's egress proxy, but management of the live store runs through the Shopify connector.)
 
@@ -78,6 +78,14 @@ Everything forwards to **allnaturalextract.com (Shopify)** — that is the only 
 | Stripe | Connector present but **not authorized**; OAuth **cannot be completed from a remote/cloud session** | You reconnect it in claude.ai → Settings → Connectors, then I re-verify |
 
 > WordPress connectors are intentionally **disconnected** — not a gap to fix.
+
+## Agents
+
+| Agent | File | Scope |
+|---|---|---|
+| **Entendre** — Marketing | `.claude/agents/entendre.md` | All marketing across the three brands; hands off commerce/ops, legal, finance, engineering, personal correspondence |
+| Executive Assistant | *(not yet defined)* | Don's desk: calendar, inbox, correspondence, legal/finance routing |
+| Operations | *(not yet defined)* | Store ops: stock, pricing, suppliers, theme + Bolt.new app code |
 
 ## Notes / Limitations
 
